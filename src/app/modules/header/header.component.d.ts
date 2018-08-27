@@ -1,8 +1,6 @@
 import { OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 export declare class HeaderComponent implements OnInit {
-    private route;
     menu: any;
     fornecedores: any;
     fornecedor: any;
@@ -14,7 +12,7 @@ export declare class HeaderComponent implements OnInit {
     usuarioLogado: string;
     isMenuAction: boolean;
     strAction: string;
-    constructor(route: Router);
+    constructor();
     ngOnInit(): void;
     clickFornecedor(): void;
     logout(): void;
