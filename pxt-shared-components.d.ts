@@ -3,4 +3,5 @@
  */
 export * from './public_api';
 export { PxtContentBody as ɵb } from './src/app/directives/pxt-content-body';
-export { MaterialAngularModule as ɵa } from './src/app/modules/material-angular/material-angular.module';
+export { PxtSubmenusComponent as ɵc } from './src/app/modules/pxt-submenus/pxt-submenus.component';
+export { PxtAppComponentService as ɵa } from './src/app/services/pxt-app-components.service';
