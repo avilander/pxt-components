@@ -473,9 +473,9 @@
     exports.PxtContentComponent = PxtContentComponent;
     exports.MaterialAngularModule = MaterialAngularModule;
     exports.PxtSubmenusModule = PxtSubmenusModule;
+    exports.PxtSubmenusComponent = PxtSubmenusComponent;
     exports.PxtAppComponentService = PxtAppComponentService;
     exports.ɵa = PxtContentBody;
-    exports.ɵb = PxtSubmenusComponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
