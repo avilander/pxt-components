@@ -28,7 +28,7 @@ var PxtContentComponent = /** @class */ (function () {
         { type: Component, args: [{
                     selector: 'pxt-content-body',
                     template: "\n<mat-card>\n    <ng-content></ng-content>\n</mat-card>",
-                    styles: [""]
+                    styles: [".pxt-content-body{padding:10px}.pxt-content-body mat-card{margin:5px;border-top:4px solid;border-radius:4px;border-bottom:4px solid}"]
                 }] }
     ];
     /** @nocollapse */
