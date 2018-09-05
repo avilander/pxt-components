@@ -8,10 +8,10 @@ export declare class PxtSubmenusComponent {
     add(object?: any): void;
     back(object?: any): void;
     buttons: PxtButton[];
-    disableSave: boolean;
-    disableBack: boolean;
-    disableClear: boolean;
-    disableSearch: boolean;
-    disableAdd: boolean;
+    enableSave: boolean;
+    enableBack: boolean;
+    enableClear: boolean;
+    enableSearch: boolean;
+    enableAdd: boolean;
     constructor(_pxtAppService: PxtAppComponentService);
 }
