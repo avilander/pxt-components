@@ -1,17 +1,23 @@
 import { PxtButton } from './model/pxt-submenus.model';
 import { PxtAppComponentService } from '../../services/pxt-app-components.service';
+import { RequestBaseService } from '../../services/pxt-http/request-base.service';
 export declare class PxtSubmenusComponent {
     _pxtAppService: PxtAppComponentService;
-    save(object?: any): void;
-    search(object?: any): void;
-    clear(object?: any): void;
-    add(object?: any): void;
-    back(object?: any): void;
+    _serviceBase: RequestBaseService;
+    model?: any;
+    controller?: String;
+    save(): any;
+    search(): void;
+    clear(): void;
+    add(): void;
+    back(): void;
+    delete(): void;
     buttons: PxtButton[];
     enableSave: boolean;
     enableBack: boolean;
     enableClear: boolean;
     enableSearch: boolean;
     enableAdd: boolean;
-    constructor(_pxtAppService: PxtAppComponentService);
+    enableDelete: boolean;
+    constructor(_pxtAppService: PxtAppComponentService, _serviceBase: RequestBaseService);
 }
