@@ -4,4 +4,5 @@ export declare enum OptionsSubmenu {
     LIMPAR = 3,
     NOVO = 4,
     VOLTAR = 5,
+    EXCLUIR = 6,
 }
