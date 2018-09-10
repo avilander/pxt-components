@@ -1,10 +1,8 @@
 import { PxtHttpService } from './pxt-http.service';
 export declare class RequestBaseService<T> {
     private httpService;
-    pathUrl: string;
-    object: T;
     constructor(httpService: PxtHttpService);
-    load(model?: T): any;
-    save(model: T): any;
-    delete(model: any): any;
+    load(urlApi: any, model?: T): any;
+    save(urlApi: any, model?: T): any;
+    delete(urlApi: any, model?: T): any;
 }

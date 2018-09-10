@@ -6,6 +6,8 @@ export declare class PxtSubmenusComponent<T> {
     _pxtAppService: PxtAppComponentService;
     _serviceBase: RequestBaseService<T>;
     model?: T;
+    type: (new () => T);
+    private urlService;
     listing: EventEmitter<T[]>;
     controller?: String;
     save(): void;
