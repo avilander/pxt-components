@@ -999,10 +999,10 @@
     exports.PxtSubmenusComponent = PxtSubmenusComponent;
     exports.PxtAppComponentService = PxtAppComponentService;
     exports.PxtHttpService = PxtHttpService;
+    exports.ConfigService = ConfigService;
+    exports.HttpHelperService = HttpHelperService;
+    exports.RequestBaseService = RequestBaseService;
     exports.ɵa = PxtContentBody;
-    exports.ɵc = HttpHelperService;
-    exports.ɵd = ConfigService;
-    exports.ɵb = RequestBaseService;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 

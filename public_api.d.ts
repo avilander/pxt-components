@@ -7,3 +7,6 @@ export * from './src/app/modules/pxt-submenus/pxt-submenus.module';
 export * from './src/app/modules/pxt-submenus/pxt-submenus.component';
 export * from './src/app/services/pxt-app-components.service';
 export * from './src/app/services/pxt-http/pxt-http.service';
+export * from './src/app/services/pxt-http/config.service';
+export * from './src/app/services/pxt-http/HttpHelperService';
+export * from './src/app/services/pxt-http/request-base.service';
