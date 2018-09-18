@@ -16,7 +16,7 @@ export declare class PxtSubmenusComponent<T> {
     search(): void;
     delete(): void;
     clear(): void;
-    add(): T;
+    add(): void;
     back(): void;
     buttons: PxtButton[];
     enableSave: boolean;

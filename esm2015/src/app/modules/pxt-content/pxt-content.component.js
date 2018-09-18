@@ -2,20 +2,9 @@
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 export class PxtContentComponent {
-    constructor() { }
-    /**
-     * @return {?}
-     */
-    ngOnDestroy() {
-        //throw new Error("Method not implemented.");
-    }
-    /**
-     * @return {?}
-     */
-    ngOnInit() {
-        //throw new Error("Method not implemented.");
+    constructor() {
     }
 }
 PxtContentComponent.decorators = [
@@ -27,5 +16,12 @@ PxtContentComponent.decorators = [
 ];
 /** @nocollapse */
 PxtContentComponent.ctorParameters = () => [];
+PxtContentComponent.propDecorators = {
+    data: [{ type: Input }]
+};
+if (false) {
+    /** @type {?} */
+    PxtContentComponent.prototype.data;
+}
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHh0LWNvbnRlbnQuY29tcG9uZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vcHh0LXNoYXJlZC1jb21wb25lbnRzLyIsInNvdXJjZXMiOlsic3JjL2FwcC9tb2R1bGVzL3B4dC1jb250ZW50L3B4dC1jb250ZW50LmNvbXBvbmVudC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLFNBQVMsRUFBcUIsTUFBTSxlQUFlLENBQUM7QUFPN0QsTUFBTTtJQVFKLGlCQUFpQjs7OztJQU5qQixXQUFXOztLQUVWOzs7O0lBQ0QsUUFBUTs7S0FFUDs7O1lBWkYsU0FBUyxTQUFDO2dCQUNULFFBQVEsRUFBRSxrQkFBa0I7Z0JBQzVCLG9FQUEyQzs7YUFFNUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIE9uSW5pdCwgT25EZXN0cm95IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ3B4dC1jb250ZW50LWJvZHknLFxuICB0ZW1wbGF0ZVVybDogJy4vcHh0LWNvbnRlbnQuY29tcG9uZW50Lmh0bWwnLFxuICBzdHlsZVVybHM6IFsnLi9weHQtY29udGVudC5jb21wb25lbnQuY3NzJ11cbn0pXG5leHBvcnQgY2xhc3MgUHh0Q29udGVudENvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCwgT25EZXN0cm95ICB7XG5cbiAgbmdPbkRlc3Ryb3koKTogdm9pZCB7XG4gICAgLy90aHJvdyBuZXcgRXJyb3IoXCJNZXRob2Qgbm90IGltcGxlbWVudGVkLlwiKTtcbiAgfVxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgICAvL3Rocm93IG5ldyBFcnJvcihcIk1ldGhvZCBub3QgaW1wbGVtZW50ZWQuXCIpO1xuICB9XG4gIGNvbnN0cnVjdG9yKCkgeyB9XG59XG4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHh0LWNvbnRlbnQuY29tcG9uZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vcHh0LXNoYXJlZC1jb21wb25lbnRzLyIsInNvdXJjZXMiOlsic3JjL2FwcC9tb2R1bGVzL3B4dC1jb250ZW50L3B4dC1jb250ZW50LmNvbXBvbmVudC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLFNBQVMsRUFBcUIsS0FBSyxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBUXBFLE1BQU07SUFHSjtLQUVDOzs7WUFWRixTQUFTLFNBQUM7Z0JBQ1QsUUFBUSxFQUFFLGtCQUFrQjtnQkFDNUIsb0VBQTJDOzthQUU1Qzs7Ozs7bUJBR0UsS0FBSyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0LCBPbkRlc3Ryb3ksIElucHV0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBBZENvbXBvbmVudCB9IGZyb20gJy4uLy4uL2ludGVyZmFjZXMvYWQuY29tcG9uZW50JztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAncHh0LWNvbnRlbnQtYm9keScsXG4gIHRlbXBsYXRlVXJsOiAnLi9weHQtY29udGVudC5jb21wb25lbnQuaHRtbCcsXG4gIHN0eWxlVXJsczogWycuL3B4dC1jb250ZW50LmNvbXBvbmVudC5jc3MnXVxufSlcbmV4cG9ydCBjbGFzcyBQeHRDb250ZW50Q29tcG9uZW50IGltcGxlbWVudHMgIEFkQ29tcG9uZW50IHtcblxuICBASW5wdXQoKSBkYXRhOiBhbnk7XG4gIGNvbnN0cnVjdG9yKCl7XG5cbiAgfVxuXG59XG4iXX0=

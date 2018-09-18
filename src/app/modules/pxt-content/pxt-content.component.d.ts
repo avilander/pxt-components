@@ -1,6 +1,5 @@
-import { OnInit, OnDestroy } from '@angular/core';
-export declare class PxtContentComponent implements OnInit, OnDestroy {
-    ngOnDestroy(): void;
-    ngOnInit(): void;
+import { AdComponent } from '../../interfaces/ad.component';
+export declare class PxtContentComponent implements AdComponent {
+    data: any;
     constructor();
 }
