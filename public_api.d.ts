@@ -13,3 +13,4 @@ export * from './src/app/services/pxt-http/pxt-http.service';
 export * from './src/app/services/pxt-http/config.service';
 export * from './src/app/services/pxt-http/HttpHelperService';
 export * from './src/app/services/pxt-http/request-base.service';
+export { pxtConfiguration } from './src/app/models/pxtConfiguration';

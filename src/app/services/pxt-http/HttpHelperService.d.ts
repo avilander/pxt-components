@@ -3,4 +3,5 @@ export declare class HttpHelperService {
     private configService;
     constructor(configService: ConfigService);
     getApi(): any;
+    getApiSeguranca(): any;
 }
