@@ -5,6 +5,8 @@ export * from './src/app/modules/pxt-content/pxt-content.component';
 export * from './src/app/modules/material-angular/material-angular.module';
 export * from './src/app/modules/pxt-submenus/pxt-submenus.module';
 export * from './src/app/modules/pxt-submenus/pxt-submenus.component';
+export * from './src/app/modules/pxt-gallery/pxt-gallery.module';
+export * from './src/app/modules/pxt-gallery/pxt-gallery.component';
 export * from './src/app/pipes/pipes.module';
 export * from './src/app/services/pxt-app-components.service';
 export * from './src/app/services/pxt-http/pxt-http.service';
