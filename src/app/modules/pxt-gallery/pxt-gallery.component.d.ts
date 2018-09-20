@@ -7,5 +7,4 @@ export declare class PxtGalleryComponent implements OnInit {
     height: any;
     constructor();
     ngOnInit(): void;
-    ngAfterViewInit(): void;
 }
