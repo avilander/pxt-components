@@ -5,7 +5,7 @@
 /**
  * Generated bundle index. Do not edit.
  */
-export { pxtConfiguration, PxtAppModule, PxtAppComponent, PxtContentModule, PxtContentComponent, MaterialAngularModule, PxtSubmenusModule, PxtSubmenusComponent, PxtGalleryModule, PxtGalleryComponent, PipeModule, PxtAppComponentService, PxtHttpService, ConfigService, HttpHelperService, RequestBaseService } from './public_api';
+export { PxtAppModule, PxtAppComponent, PxtContentModule, PxtContentComponent, MaterialAngularModule, PxtSubmenusModule, PxtSubmenusComponent, PxtGalleryModule, PxtGalleryComponent, PipeModule, PxtAppComponentService, PxtHttpService, ConfigService, HttpHelperService, RequestBaseService, pxtConfiguration } from './public_api';
 export { HashDirective as ɵg } from './src/app/directives/HashDirective';
 export { PxtContentBody as ɵf } from './src/app/directives/pxt-content-body';
 export { PxtAppMenuItemComponent as ɵe } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.component';

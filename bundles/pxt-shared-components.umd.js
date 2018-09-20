@@ -1433,7 +1433,6 @@
      * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
      */
 
-    exports.pxtConfiguration = pxtConfiguration;
     exports.PxtAppModule = PxtAppModule;
     exports.PxtAppComponent = PxtAppComponent;
     exports.PxtContentModule = PxtContentModule;
@@ -1449,6 +1448,7 @@
     exports.ConfigService = ConfigService;
     exports.HttpHelperService = HttpHelperService;
     exports.RequestBaseService = RequestBaseService;
+    exports.pxtConfiguration = pxtConfiguration;
     exports.ɵg = HashDirective;
     exports.ɵf = PxtContentBody;
     exports.ɵe = PxtAppMenuItemComponent;
