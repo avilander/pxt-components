@@ -1,8 +1,17 @@
 import { PxtHttpService } from './pxt-http.service';
+import { HttpHelperService } from './http-helper-service';
 export declare class RequestBaseService<T> {
     private httpService;
-    constructor(httpService: PxtHttpService);
-    load(urlApi: any, model?: T): any;
-    save(urlApi: any, model?: T): any;
-    delete(urlApi: any, model?: T): any;
+    private helper;
+    model: T;
+    urlService: string;
+    urlServiceAuto: string;
+    constructor(httpService: PxtHttpService, helper: HttpHelperService);
+    load(): any;
+    save(model?: T): any;
+    delete(id: any): any;
+    get(path: any): any;
+    post(model?: T): any;
+    put(model?: T): any;
+    doDelete(id: number): any;
 }

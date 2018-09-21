@@ -2,13 +2,12 @@ import { EventEmitter } from '@angular/core';
 import { PxtButton } from './model/pxt-submenus.model';
 import { PxtAppComponentService } from '../../services/pxt-app-components.service';
 import { RequestBaseService } from '../../services/pxt-http/request-base.service';
-import { HttpHelperService } from '../../services/pxt-http/HttpHelperService';
+import { HttpHelperService } from '../../services/pxt-http/http-helper-service';
 export declare class PxtSubmenusComponent<T> {
     _pxtAppService: PxtAppComponentService;
     _serviceBase: RequestBaseService<T>;
     helper: HttpHelperService;
     model?: T;
-    type: (new () => T);
     private urlService;
     listing: EventEmitter<T[]>;
     controller?: String;
