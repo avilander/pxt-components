@@ -9,3 +9,4 @@ export { PxtAppMenuItemModule as ɵd } from './src/app/modules/pxt-app/pxt-app-m
 export { DateFormatPipe as ɵb } from './src/app/pipes/date-format.pipe';
 export { DateTimeFormatPipe as ɵc } from './src/app/pipes/date-time-format.pipe';
 export { UpercaseFirst as ɵa } from './src/app/pipes/uppercase-first';
+export { TokenService as ɵh } from './src/app/services/pxt-http/token.service';

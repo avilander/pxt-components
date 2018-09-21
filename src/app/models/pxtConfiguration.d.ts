@@ -1,4 +1,4 @@
 export declare const pxtConfiguration: {
-    systemId: string;
+    systemId: number;
     systemPrex: string;
 };
