@@ -10,8 +10,8 @@ export declare class RequestBaseService<T> {
     load(): any;
     save(model?: T): any;
     delete(id: any): any;
-    get(path: string): any;
-    post(path: string, model?: T): any;
-    put(path: string, model?: T): any;
+    doGet(path: string): any;
+    doPost(path: string, model?: T): any;
+    doPut(path: string, model?: T): any;
     doDelete(path: string, id: number): any;
 }
