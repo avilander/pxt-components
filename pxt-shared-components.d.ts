@@ -6,6 +6,7 @@ export { HashDirective as ɵg } from './src/app/directives/HashDirective';
 export { PxtContentBody as ɵf } from './src/app/directives/pxt-content-body';
 export { PxtAppMenuItemComponent as ɵe } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.component';
 export { PxtAppMenuItemModule as ɵd } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.module';
+export { CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR as ɵi, PxtDatepickerComponent as ɵj } from './src/app/modules/pxt-datepicker/pxt-datepicker.component';
 export { DateFormatPipe as ɵb } from './src/app/pipes/date-format.pipe';
 export { DateTimeFormatPipe as ɵc } from './src/app/pipes/date-time-format.pipe';
 export { UpercaseFirst as ɵa } from './src/app/pipes/uppercase-first';

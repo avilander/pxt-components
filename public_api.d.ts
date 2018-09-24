@@ -16,3 +16,4 @@ export * from './src/app/services/pxt-http/request-base.service';
 export * from './src/app/visible-in-roles.guard';
 export * from './src/app/services/authority.service';
 export * from './src/app/models/pxtConfiguration';
+export * from './src/app/modules/pxt-datepicker/pxt-datepicker.module';
