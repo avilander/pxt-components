@@ -4,4 +4,5 @@ export declare class HttpHelperService {
     constructor(configService: ConfigService);
     getApi(): any;
     getApiSgi(): any;
+    getApiUrl(name: any, url: any): any;
 }
