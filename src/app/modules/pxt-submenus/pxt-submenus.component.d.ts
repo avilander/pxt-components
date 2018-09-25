@@ -10,10 +10,12 @@ export declare class PxtSubmenusComponent<T> {
     model?: T;
     private urlService;
     listing: EventEmitter<T[]>;
+    statusSave: EventEmitter<T[]>;
+    statusDelete: EventEmitter<T[]>;
     controller?: String;
     save(): void;
     search(): void;
-    delete(): void;
+    delete(id: any): void;
     clear(): void;
     add(): void;
     back(): void;
