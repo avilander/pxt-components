@@ -14,7 +14,7 @@ export declare class RequestBaseService<T> {
     load(): any;
     save(model?: T): any;
     delete(id: any): any;
-    doGet(path: string): any;
+    doGet(path: string, params?: Map<any, any>): any;
     doPost(path: string, model?: T): any;
     doPut(path: string, model?: T): any;
     doDelete(path: string, id: number): any;
