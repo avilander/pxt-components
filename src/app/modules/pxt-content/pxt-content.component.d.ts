@@ -3,7 +3,7 @@ import { AdComponent } from '../../interfaces/ad.component';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { PxtFieldConfig } from '../../interfaces/pxt-field-config';
 export declare class PxtContentComponent implements AdComponent {
-    private fb;
+    fb: FormBuilder;
     data: any;
     auto?: boolean;
     fields: PxtFieldConfig[];

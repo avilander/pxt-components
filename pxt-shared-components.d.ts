@@ -8,10 +8,9 @@ export { DynamicFieldDirectiveDialog as ɵx } from './src/app/directives/dynamic
 export { PxtContentBody as ɵf } from './src/app/directives/pxt-content-body';
 export { PxtAppMenuItemComponent as ɵe } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.component';
 export { PxtAppMenuItemModule as ɵd } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.module';
-export { CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR as ɵba, PxtDatepickerComponent as ɵbb } from './src/app/modules/pxt-datepicker/pxt-datepicker.component';
 export { PxtDialogFilterComponent as ɵw } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.component';
 export { PxtDialogFilterModule as ɵv } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.module';
-export { PxtUploadFileComponent as ɵbc } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
+export { PxtUploadFileComponent as ɵba } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
 export { PxtButtonComponent as ɵl } from './src/app/modules/shared/components/pxt-button/pxt-button.component';
 export { PxtButtonModule as ɵk } from './src/app/modules/shared/components/pxt-button/pxt-button.module';
 export { PxtCheckboxComponent as ɵt } from './src/app/modules/shared/components/pxt-checkbox/pxt-checkbox.component';
