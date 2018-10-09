@@ -14,7 +14,7 @@ PxtCheckboxComponent.decorators = [
     { type: Component, args: [{
                 selector: 'pxt-checkbox',
                 template: "<div class=\"demo-full-width\" [formGroup]=\"group\">\n  <mat-checkbox [formControlName]=\"field.name\" color=\"primary\"  >{{field.label | uppercaseFirst }}</mat-checkbox>\n</div>",
-                styles: [":host{width:100%;height:100%}"]
+                styles: [":host{width:100%;height:100%;padding-top:13%}"]
             }] }
 ];
 /** @nocollapse */
