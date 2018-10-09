@@ -17,7 +17,7 @@ var PxtDateComponent = /** @class */ (function () {
         { type: Component, args: [{
                     selector: 'pxt-date',
                     template: "<mat-form-field class=\"demo-full-width\" [formGroup]=\"group\">\n  <input matInput [matDatepicker]=\"picker\" [formControlName]=\"field.name\" [placeholder]=\"field.label | uppercaseFirst \">\n  <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n  <mat-datepicker #picker></mat-datepicker>\n  <mat-hint></mat-hint>\n  <ng-container *ngFor=\"let validation of field.validations;\" ngProjectAs=\"mat-error\">\n    <mat-error *ngIf=\"group.get(field.name).hasError(validation.name)\">{{validation.message}}</mat-error>\n  </ng-container>\n</mat-form-field>",
-                    styles: [":host{width:100%;height:100%}"]
+                    styles: [":host{width:100%;height:100%}mat-form-field{width:100%}"]
                 }] }
     ];
     /** @nocollapse */

@@ -14,7 +14,7 @@ PxtButtonComponent.decorators = [
     { type: Component, args: [{
                 selector: 'pxt-button',
                 template: "<div class=\"demo-full-width margin-top\" [formGroup]=\"group\">\n  <button type=\"submit\" mat-button color=\"primary\">{{field.label | uppercaseFirst}}</button>\n</div>",
-                styles: [":host{width:100%;height:100%}"]
+                styles: [":host{width:100%;height:100%}mat-form-field{width:100%}"]
             }] }
 ];
 /** @nocollapse */
