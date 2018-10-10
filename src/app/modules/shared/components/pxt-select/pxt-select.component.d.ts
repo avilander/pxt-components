@@ -8,6 +8,7 @@ export declare class PxtSelectComponent implements OnInit, ControlValueAccessor 
     required: boolean;
     placeholder: string;
     model: any;
+    params: any;
     controller: string;
     auto: boolean;
     private onTouchedCallback;
