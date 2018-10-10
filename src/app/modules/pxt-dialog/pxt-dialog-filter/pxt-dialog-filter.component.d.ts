@@ -9,11 +9,13 @@ export declare class PxtDialogFilterComponent implements OnInit {
     private dialogRef;
     data: any;
     helper: HttpHelperService;
-    http: RequestBaseService<any>;
+    http: RequestBaseService;
     displayedColumns: string[];
     dataSource: MatTableDataSource<any>;
     controller: string;
+    cols: number;
     fields: PxtFieldConfig[];
+    fieldsHist: PxtFieldConfig[];
     auto: boolean;
     filter: {
         code: any;
@@ -22,15 +24,15 @@ export declare class PxtDialogFilterComponent implements OnInit {
     field: PxtFieldConfig;
     form: FormGroup;
     readonly value: any;
-    constructor(fb: FormBuilder, dialogRef: MatDialogRef<PxtDialogFilterComponent>, data: any, helper: HttpHelperService, http: RequestBaseService<any>);
+    constructor(fb: FormBuilder, dialogRef: MatDialogRef<PxtDialogFilterComponent>, data: any, helper: HttpHelperService, http: RequestBaseService);
     ngOnInit(): void;
     cancelation(): void;
     confirmation(event: any): void;
     search(): void;
-    ngAfterViewInit(): void;
     selectRow(row: any): void;
     createControl(): FormGroup;
     bindValidations(validations: any): any;
     validateAllFormFields(formGroup: FormGroup): void;
     close(): void;
+    ngAfterViewInit(): void;
 }

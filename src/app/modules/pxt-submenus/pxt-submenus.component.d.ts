@@ -5,7 +5,7 @@ import { RequestBaseService } from '../../services/pxt-http/request-base.service
 import { HttpHelperService } from '../../services/pxt-http/http-helper-service';
 export declare class PxtSubmenusComponent<T> {
     _pxtAppService: PxtAppComponentService;
-    _serviceBase: RequestBaseService<T>;
+    _serviceBase: RequestBaseService;
     helper: HttpHelperService;
     model?: T;
     private urlService;
@@ -26,5 +26,5 @@ export declare class PxtSubmenusComponent<T> {
     enableSearch: boolean;
     enableAdd: boolean;
     enableDelete: boolean;
-    constructor(_pxtAppService: PxtAppComponentService, _serviceBase: RequestBaseService<T>, helper: HttpHelperService);
+    constructor(_pxtAppService: PxtAppComponentService, _serviceBase: RequestBaseService, helper: HttpHelperService);
 }

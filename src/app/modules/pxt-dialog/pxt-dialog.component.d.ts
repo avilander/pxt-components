@@ -10,4 +10,5 @@ export declare class PxtDialogComponent implements OnInit {
     ngOnInit(): void;
     cancelation(): void;
     confirmation(event: any): void;
+    selectRow(row: any): void;
 }

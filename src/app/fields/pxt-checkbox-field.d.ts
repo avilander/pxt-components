@@ -1,6 +1,7 @@
 import { PxtFieldConfig } from "../interfaces/pxt-field-config";
 import { Validator } from "../interfaces/field.interface";
 export declare class pxtCheckboxField implements PxtFieldConfig {
+    position: number;
     label?: string;
     name?: string;
     inputType?: string;
