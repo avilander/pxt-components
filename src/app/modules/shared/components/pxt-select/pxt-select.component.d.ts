@@ -1,4 +1,4 @@
-import { OnInit } from '@angular/core';
+import { OnInit, EventEmitter } from '@angular/core';
 import { PxtFieldConfig } from '../../../../interfaces/pxt-field-config';
 import { FormGroup, ControlValueAccessor } from '@angular/forms';
 import { RequestBaseService } from '../../../../services/pxt-http/request-base.service';
@@ -9,6 +9,7 @@ export declare class PxtSelectComponent implements OnInit, ControlValueAccessor 
     placeholder: string;
     model: any;
     params: any;
+    selectionChange: EventEmitter<any>;
     controller: string;
     auto: boolean;
     private onTouchedCallback;
