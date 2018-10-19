@@ -9,6 +9,6 @@ export declare class PxtDialogComponent implements OnInit {
     constructor(fb: FormBuilder, dialogRef: MatDialogRef<PxtDialogComponent>, data: any);
     ngOnInit(): void;
     cancelation(): void;
-    confirmation(event: any): void;
+    confirmation(): void;
     selectRow(row: any): void;
 }
