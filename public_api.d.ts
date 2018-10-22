@@ -15,6 +15,8 @@ export * from './src/app/modules/pxt-dialog/pxt-dialog-filter-custom/pxt-dialog-
 export * from './src/app/modules/pxt-dialog/pxt-dialog-filter-custom/pxt-dialog-filter-custom.component';
 export * from './src/app/modules/shared/components/pxt-select/pxt-select.module';
 export * from './src/app/pipes/pipes.module';
+export * from './src/app/modules/shared/components/pxt-input-filter/pxt-input-filter.module';
+export * from './src/app/modules/shared/components/pxt-input-filter/pxt-input-filter.component';
 export * from './src/app/services/pxt-app-components.service';
 export * from './src/app/services/pxt-http/pxt-http.service';
 export * from './src/app/services/pxt-http/config.service';

@@ -3,22 +3,20 @@
  */
 export * from './public_api';
 export { HashDirective as ɵg } from './src/app/directives/HashDirective';
-export { DynamicFieldDirective as ɵz } from './src/app/directives/dynamic-field-directive';
-export { DynamicFieldDirectiveDialog as ɵx } from './src/app/directives/dynamic-field-directive-dialog';
+export { DynamicFieldDirective as ɵx } from './src/app/directives/dynamic-field-directive';
+export { DynamicFieldDirectiveDialog as ɵw } from './src/app/directives/dynamic-field-directive-dialog';
 export { PxtContentBody as ɵf } from './src/app/directives/pxt-content-body';
 export { PxtAppMenuItemComponent as ɵe } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.component';
 export { PxtAppMenuItemModule as ɵd } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.module';
-export { PxtDialogFilterComponent as ɵw } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.component';
-export { PxtDialogFilterModule as ɵv } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.module';
-export { PxtUploadFileComponent as ɵba } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
+export { PxtDialogFilterComponent as ɵv } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.component';
+export { PxtDialogFilterModule as ɵu } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.module';
+export { PxtUploadFileComponent as ɵy } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
 export { PxtButtonComponent as ɵl } from './src/app/modules/shared/components/pxt-button/pxt-button.component';
 export { PxtButtonModule as ɵk } from './src/app/modules/shared/components/pxt-button/pxt-button.module';
 export { PxtCheckboxComponent as ɵt } from './src/app/modules/shared/components/pxt-checkbox/pxt-checkbox.component';
 export { PxtCheckboxModule as ɵs } from './src/app/modules/shared/components/pxt-checkbox/pxt-checkbox.module';
 export { PxtDateComponent as ɵn } from './src/app/modules/shared/components/pxt-date/pxt-date.component';
 export { PxtDateModule as ɵm } from './src/app/modules/shared/components/pxt-date/pxt-date.module';
-export { PxtInputFilterComponent as ɵy } from './src/app/modules/shared/components/pxt-input-filter/pxt-input-filter.component';
-export { PxtInputFilterModule as ɵu } from './src/app/modules/shared/components/pxt-input-filter/pxt-input-filter.module';
 export { PxtInputComponent as ɵj } from './src/app/modules/shared/components/pxt-input/pxt-input.component';
 export { PxtInputModule as ɵi } from './src/app/modules/shared/components/pxt-input/pxt-input.module';
 export { PxtRadiobuttonComponent as ɵr } from './src/app/modules/shared/components/pxt-radiobutton/pxt-radiobutton.component';
