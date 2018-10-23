@@ -1,4 +1,4 @@
-import { OnInit, EventEmitter } from '@angular/core';
+import { OnInit, EventEmitter, SimpleChanges } from '@angular/core';
 import { PxtFieldConfig } from '../../../../interfaces/pxt-field-config';
 import { FormGroup } from '@angular/forms';
 import { MatDialog } from '@angular/material';
@@ -13,6 +13,7 @@ export declare class PxtInputFilterComponent implements OnInit {
     field: PxtFieldConfig;
     group: FormGroup;
     constructor(dialog: MatDialog);
+    ngOnChanges(changes: SimpleChanges): void;
     ngOnInit(): void;
     openFilter(): void;
 }
