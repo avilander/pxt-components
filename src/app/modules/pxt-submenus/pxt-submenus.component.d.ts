@@ -3,10 +3,12 @@ import { PxtButton } from './model/pxt-submenus.model';
 import { PxtAppComponentService } from '../../services/pxt-app-components.service';
 import { RequestBaseService } from '../../services/pxt-http/request-base.service';
 import { HttpHelperService } from '../../services/pxt-http/http-helper-service';
+import { ToastrService } from 'ngx-toastr';
 export declare class PxtSubmenusComponent<T> {
     _pxtAppService: PxtAppComponentService;
     _serviceBase: RequestBaseService;
     helper: HttpHelperService;
+    notificationService: ToastrService;
     model?: T;
     private urlService;
     listing: EventEmitter<T[]>;
@@ -26,5 +28,6 @@ export declare class PxtSubmenusComponent<T> {
     enableSearch: boolean;
     enableAdd: boolean;
     enableDelete: boolean;
-    constructor(_pxtAppService: PxtAppComponentService, _serviceBase: RequestBaseService, helper: HttpHelperService);
+    constructor(_pxtAppService: PxtAppComponentService, _serviceBase: RequestBaseService, helper: HttpHelperService, notificationService: ToastrService);
+    validationModel(): boolean;
 }
