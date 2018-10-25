@@ -8,6 +8,7 @@ export declare class PxtInputFilterComponent implements OnInit {
     auto: boolean;
     className: String;
     placeholder: String;
+    displayedColumns: any[];
     onValueCallback: EventEmitter<any>;
     value: String;
     field: PxtFieldConfig;
