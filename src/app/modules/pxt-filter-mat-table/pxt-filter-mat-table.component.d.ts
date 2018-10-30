@@ -12,7 +12,8 @@ export declare class PxtFilterMatTableComponent implements OnInit {
     readonly separatorKeysCodes: number[];
     filters: any[];
     add(event: MatChipInputEvent): void;
+    applyFilterArray(): void;
+    applyFilterx(): void;
     applyFilter(filter: string): void;
-    remove(fruit: any): void;
-    configureFilterPredicate(): void;
+    remove(filter: any): void;
 }
