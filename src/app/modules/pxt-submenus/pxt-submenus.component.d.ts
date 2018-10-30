@@ -21,6 +21,8 @@ export declare class PxtSubmenusComponent<T> {
     clear(): void;
     add(): void;
     back(): void;
+    cols: number;
+    colspan: number;
     buttons: PxtButton[];
     enableSave: boolean;
     enableBack: boolean;

@@ -10,7 +10,8 @@ export { PxtAppMenuItemComponent as ɵe } from './src/app/modules/pxt-app/pxt-ap
 export { PxtAppMenuItemModule as ɵd } from './src/app/modules/pxt-app/pxt-app-menu-item/pxt-app-menu-item.module';
 export { PxtDialogFilterComponent as ɵy } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.component';
 export { PxtDialogFilterModule as ɵx } from './src/app/modules/pxt-dialog/pxt-dialog-filter/pxt-dialog-filter.module';
-export { PxtUploadFileComponent as ɵbb } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
+export { PxtFilterMatTableComponent as ɵbb } from './src/app/modules/pxt-filter-mat-table/pxt-filter-mat-table.component';
+export { PxtUploadFileComponent as ɵbc } from './src/app/modules/pxt-upload-file/pxt-upload-file.component';
 export { PxtButtonComponent as ɵo } from './src/app/modules/shared/components/pxt-button/pxt-button.component';
 export { PxtButtonModule as ɵn } from './src/app/modules/shared/components/pxt-button/pxt-button.module';
 export { PxtCheckboxComponent as ɵw } from './src/app/modules/shared/components/pxt-checkbox/pxt-checkbox.component';
