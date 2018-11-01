@@ -4,16 +4,20 @@ import { PxtContentBody } from '../../directives/pxt-content-body';
 import { MatMenu, MatMenuTrigger } from '@angular/material';
 import { SafeHtml } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
+import { UserService } from '../../services/user.service';
+import { HttpHelperService } from '../../services/pxt-http/http-helper-service';
 export declare class PxtAppComponent {
     componentFactoryResolver: ComponentFactoryResolver;
     pxtAppComponentService: any;
+    private userService;
+    private httpHelperService;
     routes: any[];
     groups: any[];
     menus: any[];
     system: String;
     urlImg: string;
     menuSelected: string;
-    usuerLogged: string;
+    usuerLogged: any;
     menusHtml: SafeHtml;
     result: Observable<boolean>;
     _mobileQueryListener: () => void;
@@ -26,10 +30,14 @@ export declare class PxtAppComponent {
     adHost: PxtContentBody;
     interval: any;
     menusReceived: any[];
-    constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, componentFactoryResolver: ComponentFactoryResolver, pxtAppComponentService: any);
+    urlLogo: string;
+    constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, componentFactoryResolver: ComponentFactoryResolver, pxtAppComponentService: any, userService: UserService, httpHelperService: HttpHelperService);
     ngOnDestroy(): void;
+    ngOnInit(): void;
     loadComponent(route: any, adHost: any): void;
     subscribeComponent(): void;
     selectItemMenu(nav: any): void;
     prepareMenu(): void;
+    logout(): void;
+    findUserLogged(): void;
 }

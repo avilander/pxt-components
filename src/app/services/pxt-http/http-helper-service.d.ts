@@ -6,4 +6,5 @@ export declare class HttpHelperService {
     getApiSgi(): any;
     getFrontSgi(): any;
     getApiUrl(name: any, url: any): any;
+    getUrlLogo(): any;
 }
