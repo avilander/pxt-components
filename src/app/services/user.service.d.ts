@@ -8,6 +8,5 @@ export declare class UserService {
     logout(): void;
     static getUsuarioLogado(): any;
     setUsuarioLogado(username: string): void;
-    static getRules(): string[];
     buscarPorIdentificacaoAcesso(identificacaoAcesso: string): any;
 }
