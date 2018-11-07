@@ -3,6 +3,13 @@
  * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /** @type {?} */
-export const pxtConfiguration = { systemId: 104, systemPrex: "SGE_NEW", systemPath: "sge" };
+export const pxtAppConfig = {
+    systemName: "",
+    systemPath: "",
+    systemPrex: "",
+    systemId: 0,
+    userLogged: "",
+    sideBarMenus: []
+};
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHh0Q29uZmlndXJhdGlvbi5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3B4dC1zaGFyZWQtY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInNyYy9hcHAvbW9kZWxzL3B4dENvbmZpZ3VyYXRpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxhQUFhLGdCQUFnQixHQUFHLEVBQUMsUUFBUSxFQUFFLEdBQUcsRUFBRSxVQUFVLEVBQUUsU0FBUyxFQUFFLFVBQVUsRUFBRSxLQUFLLEVBQUMsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBweHRDb25maWd1cmF0aW9uID0ge3N5c3RlbUlkOiAxMDQgLHN5c3RlbVByZXg6IFwiU0dFX05FV1wiLCBzeXN0ZW1QYXRoOiBcInNnZVwifVxyXG4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHh0Q29uZmlndXJhdGlvbi5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3B4dC1zaGFyZWQtY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInNyYy9hcHAvbW9kZWxzL3B4dENvbmZpZ3VyYXRpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFFQSxhQUFjLFlBQVksR0FBRztJQUN6QixVQUFVLEVBQUcsRUFBRTtJQUNmLFVBQVUsRUFBRyxFQUFFO0lBQ2YsVUFBVSxFQUFFLEVBQUU7SUFDZCxRQUFRLEVBQUUsQ0FBQztJQUNYLFVBQVUsRUFBRSxFQUFFO0lBQ2QsWUFBWSxFQUFFLEVBQUU7Q0FDakIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxuZXhwb3J0IGNvbnN0ICBweHRBcHBDb25maWcgPSB7XHJcbiAgICBzeXN0ZW1OYW1lIDogXCJcIixcclxuICAgIHN5c3RlbVBhdGggOiBcIlwiLFxyXG4gICAgc3lzdGVtUHJleDogXCJcIixcclxuICAgIHN5c3RlbUlkOiAwLFxyXG4gICAgdXNlckxvZ2dlZDogXCJcIixcclxuICAgIHNpZGVCYXJNZW51czogW11cclxuICB9O1xyXG4iXX0=
