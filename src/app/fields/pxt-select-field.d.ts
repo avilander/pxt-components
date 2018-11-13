@@ -1,6 +1,6 @@
 import { PxtFieldConfig } from "../interfaces/pxt-field-config";
 import { Validator } from "../interfaces/field.interface";
-export declare class pxtSelectField implements PxtFieldConfig {
+export declare class PxtSelectField implements PxtFieldConfig {
     position: number;
     label?: string;
     name?: string;
