@@ -6,7 +6,7 @@ export declare class UserService {
     private path;
     constructor(httpService: PxtHttpService, helper: HttpHelperService);
     logout(): void;
-    static getUsuarioLogado(): any;
+    getUsuarioLogado(): any;
     setUsuarioLogado(username: string): void;
     buscarPorIdentificacaoAcesso(identificacaoAcesso: string): any;
 }

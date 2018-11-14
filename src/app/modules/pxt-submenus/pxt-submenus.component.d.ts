@@ -12,8 +12,8 @@ export declare class PxtSubmenusComponent<T> {
     model?: T;
     private urlService;
     listing: EventEmitter<T[]>;
-    statusSave: EventEmitter<T[]>;
-    statusDelete: EventEmitter<T[]>;
+    callbackSave: EventEmitter<T[]>;
+    callbackDelete: EventEmitter<T[]>;
     controller?: String;
     save(): void;
     search(): void;

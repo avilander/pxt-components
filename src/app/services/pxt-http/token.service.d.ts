@@ -1,5 +1,7 @@
+import { UserService } from '../user.service';
 export declare class TokenService {
-    constructor();
+    userService: UserService;
+    constructor(userService: UserService);
     getAccessToken(): string;
     setTokenStorage(res: any): void;
     removeTokenStorage(): void;
